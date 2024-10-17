@@ -81,7 +81,7 @@ function WeatherApp() {
                 updateInfo function updates the weather information based on new data.
                 </p>
             </div>
-            <GithubLink link1={'w'}/>
+            <GithubLink link1='w'/>
 
         </div>
     )
