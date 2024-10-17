@@ -2,7 +2,7 @@ import React from 'react'
 import ProjectsDetails from '../components/ProjectsDetails'
 import GithubLink from '../components/GithubLink'
 
-function WeatherApp() {
+export default function WeatherApp() {
     let details = ["/weather1.png", "/weather2.png", "/weather3.jpg"]
     return (
         <div className='border flex flex-wrap'>
@@ -87,4 +87,4 @@ function WeatherApp() {
     )
 }
 
-export default WeatherApp
+ 
