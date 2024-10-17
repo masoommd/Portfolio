@@ -12,7 +12,7 @@ function GithubLink({link1, link2='' }) {
     let amazonCloneLink = "https://github.com/masoommd/Amazon_clone.git";
     let wanderlustLink = "https://github.com/masoommd/Wanderlust-Cloning-of-Airbnb-.git";
     let bloogLink = "https://github.com/masoommd/Bloog-A-blog-App.git";
-    let portfolioLink = "";
+    let portfolioLink = "https://github.com/masoommd/Portfolio";
     let wanderlustWebLink="https://wanderlust-cloning-of-airbnb.onrender.com/listings";
     let bloogWebLink = "https://bloog-weld.vercel.app/";
 

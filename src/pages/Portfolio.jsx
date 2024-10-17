@@ -58,7 +58,7 @@ function Portfolio() {
                 </p>
                 
             </div>
-            <GithubLink link1={'p'}/>
+            <GithubLink link1={'k'}/>
 
             </div>
   )
