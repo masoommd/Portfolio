@@ -8,7 +8,7 @@ export default function About() {
                   <div className="md:5/12 lg:w-5/12">
                       <img
                             className='w-96 shadow-sm'
-                          src="../../../public/about2.png"
+                          src="/about2.png"
                           alt="image"
                       />
                   </div>
