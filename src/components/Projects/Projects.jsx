@@ -6,7 +6,7 @@ function Projects() {
   let src = '/minor.png'
   let src1 = '/major.png'
   return (
-    <div className='h-screen min-h-screen flex flex-wrap items-center justify-evenly'>
+    <div className='h-screen min-h-screen flex flex-wrap mt-20 justify-evenly '>
       <Card src={src} title={'Minor Project'} path={'minorprojects'}/>
       <Card src={src1} title={'Major Project'} path={'majorprojects'}/>
     </div>

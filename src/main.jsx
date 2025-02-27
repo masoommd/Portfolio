@@ -26,6 +26,9 @@ import ProjectLayout from './ProjectLayout.jsx'
 import MinorProjectLayout from './MinorProjectLayout.jsx'
 import MajorProjectLayout from './MajorProjectLayout.jsx'
 import Skills from './pages/Skills.jsx'
+import ImageSearch from './pages/ImageSearch.jsx'
+import JobPortal from './pages/JobPortal.jsx'
+import Resume from './components/Resume/Resume.jsx'
 
 const router = createBrowserRouter([
     {
@@ -51,6 +54,10 @@ const router = createBrowserRouter([
         },{
           path:"education",
           element:<Education/>
+        },
+        {
+          path:"resume",
+          element:<Resume/>
         },
         {
           path:"projects",
@@ -92,6 +99,10 @@ const router = createBrowserRouter([
                 path:"amazon-clone",
                 element:<AmazonClone/>
               },
+              {
+                path:"image-search",
+                element:<ImageSearch/>
+              },
             ]
             },
             {
@@ -113,6 +124,10 @@ const router = createBrowserRouter([
                 {
                   path:"portfolio",
                   element:<Portfolio/>
+                },
+                {
+                  path:"job-portal",
+                  element:<JobPortal/>
                 },
               ]
             },
