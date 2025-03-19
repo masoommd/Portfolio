@@ -29,6 +29,7 @@ import Skills from './pages/Skills.jsx'
 import ImageSearch from './pages/ImageSearch.jsx'
 import JobPortal from './pages/JobPortal.jsx'
 import Resume from './components/Resume/Resume.jsx'
+import MysteryMessage from './pages/MysteryMessage.jsx'
 
 const router = createBrowserRouter([
     {
@@ -128,6 +129,10 @@ const router = createBrowserRouter([
                 {
                   path:"job-portal",
                   element:<JobPortal/>
+                },
+                {
+                  path:"mystery-message",
+                  element:<MysteryMessage/>
                 },
               ]
             },

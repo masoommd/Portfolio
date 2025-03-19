@@ -4,7 +4,7 @@ function Resume() {
   return (
     <div>
       <iframe
-        src="https://res.cloudinary.com/dehbmcyta/image/upload/v1740679835/nab554t0tmvrhdxpyteg.pdf"
+        src="Md_Masoom_New_Resume.pdf"
         frameborder="0" title="Resume" 
         className="h-screen w-[100%]"
       ></iframe>
