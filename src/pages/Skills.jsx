@@ -14,7 +14,7 @@ function Skills() {
     ["React-Redux", "devicon-redux-original"],
     ["React-Router-DOM", "fas fa-route"],
     ["React-Hook-Form", "fas fa-check-square"],
-    ["ShadcnUI", "devicon-shadcnui-plain"],
+    ["ShadcnUI", "fa-solid fa-s"],
     ["Framer Motion", "devicon-framermotion-original"],
     ["TypeScript(basics)", "devicon-typescript-plain"],
     ["Node.js", "fab fa-node-js"],
