@@ -6,7 +6,7 @@ export default function About() {
       <div className="container m-auto px-0 text-gray-600 md:px-12 xl:px-1 ">
         <div className="space-y-6 md:space-y-0 md:flex md:gap-6 px-0 lg:items-center lg:gap-1">
           <div className="md:5/12 lg:w-5/12">
-            <img className="w-96 shadow-sm" src="/about2.png" alt="image" />
+            <img className="w-96 shadow-sm" src="/about.png" alt="image" />
           </div>
           <div className="md:7/12 lg:w-6/12 ">
             <h2 className="text-2xl text-gray-100 font-bold underline md:text-4xl">
@@ -42,7 +42,9 @@ export default function About() {
               <span className=" bg-gray-400  text-gray-700 px-1">
                 {" "}
                 HTML, CSS, JavaScript, Python, C/C++ (DSA), Bootstrap, Tailwind
-                CSS, EJS, React, React-Redux, React-Router-DOM, React-Hook-Form, ShadcnUI, Framer Motion, TypeScript (basics), Node.js, Express.js, Next.js, NextAuth, Axios, REST API, MySQL, MongoDB,
+                CSS, EJS, React, React-Redux, React-Router-DOM, React-Hook-Form,
+                ShadcnUI, Framer Motion, TypeScript (basics), Node.js,
+                Express.js, Next.js, NextAuth, Axios, REST API, MySQL, MongoDB,
                 Cloudinary, Zod, Joi, Git, GitHub, Postman, OOP
               </span>
               .I'm committed to staying up-to-date with the latest industry

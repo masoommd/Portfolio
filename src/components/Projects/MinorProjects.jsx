@@ -12,6 +12,7 @@ function MinorProjects() {
         <Card src={'/currencyConvertor.png'} title={'Currency Convertor'} path={'currency-convertor'}/>
         <Card src={'/amazon.png'} title={'Amazon Clone(CSS)'} path={'amazon-clone'}/>
         <Card src={'/unsplash-logo.png'} title={'Image Search App'} path={'image-search'}/>
+        <Card src={'/fitclub-logo.png'} title={'FitClub'} path={'fitclub'}/>
         
     </div>
   )

@@ -30,6 +30,7 @@ import ImageSearch from './pages/ImageSearch.jsx'
 import JobPortal from './pages/JobPortal.jsx'
 import Resume from './components/Resume/Resume.jsx'
 import MysteryMessage from './pages/MysteryMessage.jsx'
+import Fitclub from './pages/Fitclub.jsx'
 
 const router = createBrowserRouter([
     {
@@ -103,6 +104,10 @@ const router = createBrowserRouter([
               {
                 path:"image-search",
                 element:<ImageSearch/>
+              },
+              {
+                path:"fitclub",
+                element:<Fitclub/>
               },
             ]
             },
