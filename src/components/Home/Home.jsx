@@ -40,7 +40,7 @@ export default function Home() {
                 </div>
 
                 <div className="absolute  inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-1/3  rounded-[100%] border-4 border-gray-500" src='/masoompic.jpg' alt="image1" />
+                    <img className="w-1/3  rounded-3xl border-4 border-gray-500" src='/mk.gif' alt="image1" />
                 </div>
             </aside>
         </div>
