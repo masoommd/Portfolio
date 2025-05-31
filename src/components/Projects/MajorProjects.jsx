@@ -11,6 +11,7 @@ function MajorProjects() {
         <Card src={'/blogApp.png'} title={'Blog App'} path={'blog-app'}/>
         <Card src={'/portfolio.png'} title={'Portfolio'} path={'portfolio'}/>
         <Card src={'/logo22.png'} title={'Job Spark'} path={'job-portal'} className=''/>
+        <Card src={'/nodetalkIcon.png'} title={'Node Talk'} path={'node-talk'} className=''/>
         
         
     </div>

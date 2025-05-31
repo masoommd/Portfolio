@@ -22,11 +22,13 @@ function GithubLink({link1, link2='' }) {
     let mysterymessageLink = "https://github.com/masoommd/mystrymessage.git";
     let fitclubLink = "https://github.com/masoommd/Gymsite";
     let fitclubWebLink = "https://gymsitebymasoom.pages.dev";
+    let nodeTalkLink = "https://github.com/masoommd/real_time_chat_ai.git";
+    let nodeTalkWebLink = "https://nodetalk-frontend.onrender.com/";
 
-    (link1 === 'w')  ? link = `${weatherAppLink}` : (link1 === 'c') ? link = `${currencyConvertorLink}` : (link1 === 'p') ? link = `${passwordGeneratorLink}` : (link1 === 's') ? link = `${simonGameLink}` : (link1 === 't') ? link = `${todoLink}` : (link1 === 'a') ? link = `${amazonCloneLink}` : (link1 === 'b') ? link = `${bloogLink}` : (link1 === 'r') ? link = `${wanderlustLink}` : (link1 === 'i') ? link = `${imageSearchLink}` :(link1 === 'j') ? link=jobportalLink  : (link1 === 'mg') ? link=`${mysterymessageLink}` :(link1 === 'fg') ? link=`${fitclubLink}`:link = `${portfolioLink}`;
+    (link1 === 'w')  ? link = `${weatherAppLink}` : (link1 === 'c') ? link = `${currencyConvertorLink}` : (link1 === 'p') ? link = `${passwordGeneratorLink}` : (link1 === 's') ? link = `${simonGameLink}` : (link1 === 't') ? link = `${todoLink}` : (link1 === 'a') ? link = `${amazonCloneLink}` : (link1 === 'b') ? link = `${bloogLink}` : (link1 === 'r') ? link = `${wanderlustLink}` : (link1 === 'i') ? link = `${imageSearchLink}` :(link1 === 'j') ? link=jobportalLink  : (link1 === 'mg') ? link=`${mysterymessageLink}` :(link1 === 'fg') ? link=`${fitclubLink}`:(link1 === 'ng') ? link=`${nodeTalkLink}`:link = `${portfolioLink}`;
 
     if(link2.length>0){
-      (link2==='w') ? webLink = `${wanderlustWebLink}` :(link2==='j') ? webLink=`${jobportalWebLink}`:(link2==='ml') ? webLink=`${mysterymessageWebLink}` :(link2==='fl') ? webLink=`${fitclubWebLink}`: webLink = `${bloogWebLink}`;
+      (link2==='w') ? webLink = `${wanderlustWebLink}` :(link2==='j') ? webLink=`${jobportalWebLink}`:(link2==='ml') ? webLink=`${mysterymessageWebLink}` :(link2==='fl') ? webLink=`${fitclubWebLink}`: (link2==='nl') ? webLink=`${nodeTalkWebLink}`: webLink = `${bloogWebLink}`;
     }
     console.log(link1, link2);
     console.log(link, webLink);

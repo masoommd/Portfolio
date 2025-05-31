@@ -64,7 +64,7 @@ function MysteryMessage() {
         - AI Integration: Google AI for message enhancement. <br />
       </div>
 
-      <GithubLink link1={"ml"} link2={"mg"} />
+      <GithubLink link1={"mg"} link2={"ml"} />
     </div>
   );
 }
